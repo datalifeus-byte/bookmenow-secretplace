@@ -1,3 +1,20 @@
+# Two separate sites
+
+This repository holds two independent marketing sites. They do not share layout, CSS, or copy.
+
+| Site | Entry | Subject |
+|------|--------|---------|
+| Артейс Прайм / Arteys Prime | `index.html` | Rebar production, dark industrial page |
+| ТД Синерджи / TD Synergy | `synergy.html` | Construction works and reinforcement shop, light editorial page |
+
+Open Synergy at `http://localhost:5173/synergy.html`.
+
+## ТД Синерджи
+
+Bilingual (Ukrainian default, English) site for **ТОВ «Сінерджи Торговий дім»** (EDRPOU 45779288, Kyiv). Legal facts come from the public company register. No telephone is published there, so the enquiry form only assembles a message locally.
+
+Language preference is stored as `td-synergy-locale` and synced with `?lang=`.
+
 # Arteys Prime / Артейс Прайм
 
 Bilingual marketing website (Ukrainian + English) for **Артейс Прайм / Arteys Prime** — rebar / reinforcement steel production.
