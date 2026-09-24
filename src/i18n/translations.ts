@@ -25,12 +25,16 @@ export const translations = {
         'Сталева арматура для несучих конструкцій, фундаментів та інфраструктурних обʼєктів — з контрольованою якістю та стабільними поставками.',
       ctaPrimary: 'Отримати пропозицію',
       ctaSecondary: 'Дивитися продукцію',
+      imageAlt:
+        'Будівельний майданчик з сіткою арматури перед бетонуванням',
     },
     about: {
       eyebrow: 'Про компанію',
       title: 'Промислове виробництво арматури для будівельного ринку',
       p1: 'Артейс Прайм спеціалізується на виробництві та постачанні арматурного прокату для житлового, комерційного й інфраструктурного будівництва. Ми орієнтовані на B2B-партнерів: генпідрядників, девелоперів, металотрейдерів і виробничі підприємства.',
       p2: 'Наша мета — забезпечити стабільну якість металу, точну відповідність замовленню за класом і діаметром, а також зрозумілі строки відвантаження. Працюємо з типовими проєктами й нестандартними специфікаціями під потреби обʼєкта.',
+      imageAlt: 'Робітники з пачками арматури на бетонній плиті',
+      imageAltSecondary: 'Арматурний каркас колони на будівельному майданчику',
       stats: [
         { value: 'Ø6–40', label: 'мм діапазон діаметрів' },
         { value: 'A400C / A500C', label: 'класи арматури' },
@@ -46,31 +50,37 @@ export const translations = {
           title: 'Арматура A500C',
           text: 'Гарячекатана арматурна сталь класу A500C для несучих елементів: колони, плити, фундаменти. Діаметри за запитом.',
           tags: ['Прутки', 'Бухти', 'Ø6–40 мм'],
+          imageAlt: 'Крупний план ребристої сталевої арматури',
         },
         {
           title: 'Арматура A400C',
           text: 'Класична арматура A400C для конструкцій, де потрібна перевірена міцність і сумісність із проєктною документацією.',
           tags: ['Прутки', 'Бухти', 'Стандартні довжини'],
+          imageAlt: 'Штабель арматурних прутків на відкритому складі',
         },
         {
           title: 'Прутки та бухти',
           text: 'Постачання у прутках фіксованої довжини або в бухтах — залежно від технології армування та логістики на майданчику.',
           tags: ['Прутки', 'Бухти', 'Опт'],
+          imageAlt: 'Вертикальний арматурний каркас крупним планом',
         },
         {
           title: 'Різання в розмір',
           text: 'Послуга різання арматури під задані довжини зменшує відходи на обʼєкті та прискорює монтаж каркасів.',
           tags: ['Cut-to-length', 'Під замовлення'],
+          imageAlt: 'Пачки арматури й різання на будівельному майданчику',
         },
         {
           title: 'Супутні вироби',
           text: 'Супутні позиції для армування: дріт, сітка та інші вироби за узгодженою специфікацією партії.',
           tags: ['Дріт', 'Сітка', 'Комплектація'],
+          imageAlt: 'Бетонування плити поверх сітки арматури',
         },
         {
           title: 'Логістика партій',
           text: 'Формування партій під графік поставок: маркування, упаковка та відвантаження згідно з вашим замовленням.',
           tags: ['Партії', 'Відвантаження'],
+          imageAlt: 'Робітник на майданчику біля арматурних каркасів',
         },
       ],
     },
@@ -78,6 +88,7 @@ export const translations = {
       eyebrow: 'Якість і переваги',
       title: 'Контроль параметрів і передбачувана співпраця',
       lead: 'Працюємо за внутрішніми процедурами контролю якості та супровідною документацією до партій. Конкретні номери сертифікатів надаємо за запитом для відповідної партії.',
+      imageAlt: 'Обробка сталі з іскрами на промисловому майданчику',
       items: [
         {
           title: 'Контроль механічних властивостей',
@@ -109,6 +120,7 @@ export const translations = {
       eyebrow: 'Виробництво',
       title: 'Від сировини до відвантаження партії',
       lead: 'Короткий огляд виробничого циклу — щоб замовник розумів, як формується якість і строки.',
+      imageAlt: 'Робітник на промисловому майданчику з арматурними каркасами',
       steps: [
         {
           num: '01',
@@ -136,14 +148,17 @@ export const translations = {
         {
           title: 'Житлове та комерційне будівництво',
           text: 'Каркаси монолітних будинків, фундаменти, перекриття, колони та сходові марші.',
+          imageAlt: 'Сучасна багатоповерхова будівля — результат застосування арматури',
         },
         {
           title: 'Інфраструктура',
           text: 'Мости, шляхопроводи, підпірні стіни, обʼєкти транспортної та інженерної інфраструктури.',
+          imageAlt: 'Бетонування конструкції з видимою арматурною сіткою',
         },
         {
           title: 'Промислові обʼєкти',
           text: 'Цехи, склади, енергетичні й виробничі комплекси з підвищеними вимогами до несучих конструкцій.',
+          imageAlt: 'Будівельний майданчик з арматурою та робітниками',
         },
       ],
     },
@@ -175,6 +190,7 @@ export const translations = {
       brand: 'Артейс Прайм',
       tagline: 'Виробництво арматури',
       rights: 'Демонстраційний маркетинговий сайт. Контакти — плейсхолдери.',
+      credits: 'Фото: Unsplash і Pexels (вільна ліцензія). Див. README.',
     },
   },
   en: {
@@ -199,12 +215,16 @@ export const translations = {
         'Reinforcement steel for structural frames, foundations and infrastructure — controlled quality and dependable B2B supply.',
       ctaPrimary: 'Request a quote',
       ctaSecondary: 'View products',
+      imageAlt:
+        'Construction site with a dense rebar grid prepared for concrete pour',
     },
     about: {
       eyebrow: 'About',
       title: 'Industrial rebar manufacturing for the construction market',
       p1: 'Arteys Prime produces and supplies reinforcement steel for residential, commercial and infrastructure projects. We serve B2B partners: general contractors, developers, metal traders and manufacturing companies.',
       p2: 'Our focus is consistent steel quality, precise class and diameter fulfilment, and clear dispatch timelines. We support both standard project schedules and custom specifications for the job site.',
+      imageAlt: 'Workers with rebar bundles on a concrete slab',
+      imageAltSecondary: 'Reinforcement steel cage for a structural column',
       stats: [
         { value: 'Ø6–40', label: 'mm diameter range' },
         { value: 'A400C / A500C', label: 'rebar classes' },
@@ -220,31 +240,37 @@ export const translations = {
           title: 'A500C rebar',
           text: 'Hot-rolled A500C reinforcement for load-bearing elements: columns, slabs and foundations. Diameters on request.',
           tags: ['Bars', 'Coils', 'Ø6–40 mm'],
+          imageAlt: 'Close-up of ribbed steel reinforcement bars',
         },
         {
           title: 'A400C rebar',
           text: 'Proven A400C steel where project documentation requires this class and predictable mechanical performance.',
           tags: ['Bars', 'Coils', 'Standard lengths'],
+          imageAlt: 'Stack of reinforcement bars in outdoor storage',
         },
         {
           title: 'Bars and coils',
           text: 'Supply in fixed-length bars or coils — matching your reinforcement method and site logistics.',
           tags: ['Bars', 'Coils', 'Wholesale'],
+          imageAlt: 'Vertical rebar cage photographed from below',
         },
         {
           title: 'Cut-to-length',
           text: 'Cutting to specified lengths reduces on-site scrap and speeds up cage assembly.',
           tags: ['Cut-to-length', 'Made to order'],
+          imageAlt: 'Rebar bundles and cutting work on a construction site',
         },
         {
           title: 'Related products',
           text: 'Supporting items for reinforcement works: wire, mesh and other products per agreed batch specification.',
           tags: ['Wire', 'Mesh', 'Kitting'],
+          imageAlt: 'Concrete being poured over a rebar mesh',
         },
         {
           title: 'Batch logistics',
           text: 'Batch preparation for delivery schedules: labelling, packing and dispatch per your purchase order.',
           tags: ['Batches', 'Dispatch'],
+          imageAlt: 'Construction worker near reinforcement cages on site',
         },
       ],
     },
@@ -252,6 +278,7 @@ export const translations = {
       eyebrow: 'Quality & advantages',
       title: 'Parameter control and predictable partnership',
       lead: 'We follow internal quality procedures and provide batch documentation. Specific certificate details are shared on request for the relevant lot — we do not publish invented certificate IDs.',
+      imageAlt: 'Steel fabrication sparks on an industrial worksite',
       items: [
         {
           title: 'Mechanical property checks',
@@ -283,6 +310,7 @@ export const translations = {
       eyebrow: 'Production',
       title: 'From feedstock to dispatched lot',
       lead: 'A concise process overview so buyers understand how quality and lead times are formed.',
+      imageAlt: 'Worker on an industrial site with reinforcement cages',
       steps: [
         {
           num: '01',
@@ -310,14 +338,17 @@ export const translations = {
         {
           title: 'Residential & commercial',
           text: 'Monolithic building frames, foundations, slabs, columns and stair flights.',
+          imageAlt: 'Modern multi-storey building — end use of reinforcement steel',
         },
         {
           title: 'Infrastructure',
           text: 'Bridges, overpasses, retaining walls and transport or utility infrastructure.',
+          imageAlt: 'Concrete pour over visible reinforcement mesh',
         },
         {
           title: 'Industrial facilities',
           text: 'Plants, warehouses and energy complexes with demanding structural requirements.',
+          imageAlt: 'Construction site with rebar and workers',
         },
       ],
     },
@@ -349,6 +380,7 @@ export const translations = {
       brand: 'Arteys Prime',
       tagline: 'Rebar production',
       rights: 'Demo marketing site. Contact details are placeholders.',
+      credits: 'Photos: Unsplash and Pexels (free licenses). See README.',
     },
   },
 } as const

@@ -1,4 +1,6 @@
+import { images } from '../assets/images'
 import { useI18n } from '../i18n/I18nProvider'
+import { Picture } from './Picture'
 
 export function Advantages() {
   const { t } = useI18n()
@@ -6,9 +8,18 @@ export function Advantages() {
   return (
     <section className="section advantages" id="advantages">
       <div className="container">
-        <p className="eyebrow">{t.advantages.eyebrow}</p>
-        <h2>{t.advantages.title}</h2>
-        <p className="section-lead">{t.advantages.lead}</p>
+        <div className="advantages-head">
+          <div>
+            <p className="eyebrow">{t.advantages.eyebrow}</p>
+            <h2>{t.advantages.title}</h2>
+            <p className="section-lead">{t.advantages.lead}</p>
+          </div>
+          <Picture
+            src={images.advantages}
+            alt={t.advantages.imageAlt}
+            className="advantages-photo"
+          />
+        </div>
         <div className="advantage-grid">
           {t.advantages.items.map((item, i) => (
             <article key={item.title} className="advantage-item">

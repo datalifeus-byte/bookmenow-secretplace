@@ -1,13 +1,24 @@
+import { images } from '../assets/images'
 import { useI18n } from '../i18n/I18nProvider'
+import { Picture } from './Picture'
 
 export function Hero() {
   const { t } = useI18n()
 
   return (
     <section className="hero" id="top">
+      <div className="hero-media" aria-hidden="false">
+        <Picture
+          src={images.hero}
+          alt={t.hero.imageAlt}
+          className="hero-picture"
+          loading="eager"
+          fetchPriority="high"
+        />
+        <div className="hero-scrim" />
+      </div>
       <div className="hero-bg" aria-hidden="true">
         <div className="hero-grid" />
-        <div className="hero-glow" />
         <div className="hero-bars">
           {Array.from({ length: 12 }).map((_, i) => (
             <span key={i} style={{ ['--i' as string]: i }} />

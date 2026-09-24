@@ -10,7 +10,10 @@ export function Footer() {
           <strong>{t.footer.brand}</strong>
           <span>{t.footer.tagline}</span>
         </div>
-        <p>{t.footer.rights}</p>
+        <div className="footer-meta">
+          <p>{t.footer.rights}</p>
+          <p className="footer-credits">{t.footer.credits}</p>
+        </div>
       </div>
     </footer>
   )
